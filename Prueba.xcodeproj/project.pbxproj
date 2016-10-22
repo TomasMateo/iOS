@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		7765CCA61D98289D00298425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765CCA51D98289D00298425 /* AppDelegate.swift */; };
-		7765CCA81D98289D00298425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765CCA71D98289D00298425 /* ViewController.swift */; };
 		7765CCAB1D98289D00298425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7765CCA91D98289D00298425 /* Main.storyboard */; };
 		7765CCAE1D98289D00298425 /* Prueba.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7765CCAC1D98289D00298425 /* Prueba.xcdatamodeld */; };
 		7765CCB01D98289D00298425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7765CCAF1D98289D00298425 /* Assets.xcassets */; };
 		7765CCB31D98289D00298425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7765CCB11D98289D00298425 /* LaunchScreen.storyboard */; };
 		7765CCBE1D98289D00298425 /* PruebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765CCBD1D98289D00298425 /* PruebaTests.swift */; };
 		7765CCC91D98289D00298425 /* PruebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7765CCC81D98289D00298425 /* PruebaUITests.swift */; };
-		77B906691DB8533C0091D8D3 /* MiCategoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B906681DB8533C0091D8D3 /* MiCategoria.swift */; };
-		7D2FC5AF1DA1C05500438B22 /* MiColeccionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2FC5AE1DA1C05500438B22 /* MiColeccionViewController.swift */; };
-		7D2FC5B11DA1C08600438B22 /* PalabrasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2FC5B01DA1C08600438B22 /* PalabrasViewController.swift */; };
-		7D2FC5B31DA1C2BB00438B22 /* VerCategoriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2FC5B21DA1C2BB00438B22 /* VerCategoriaViewController.swift */; };
-		7D2FC5B51DA1CB2900438B22 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2FC5B41DA1CB2900438B22 /* LoginViewController.swift */; };
-		7D2FC5B71DA1CBC600438B22 /* CrearCategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2FC5B61DA1CBC600438B22 /* CrearCategoriasViewController.swift */; };
+		7D28529E1DBBFBB50016EE9C /* MisSignificadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28529D1DBBFBB50016EE9C /* MisSignificadosViewController.swift */; };
+		7D2852A01DBBFBDF0016EE9C /* MiSignificado.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D28529F1DBBFBDF0016EE9C /* MiSignificado.swift */; };
+		7D2852A21DBBFECC0016EE9C /* MisPalabrasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2852A11DBBFECC0016EE9C /* MisPalabrasViewController.swift */; };
+		7D2852A41DBBFED50016EE9C /* MiPalabra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2852A31DBBFED50016EE9C /* MiPalabra.swift */; };
+		7D2852A61DBC12FC0016EE9C /* MisCategoriasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2852A51DBC12FC0016EE9C /* MisCategoriasViewController.swift */; };
+		7D2852AC1DBC15A00016EE9C /* MiCategoria.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2852AB1DBC15A00016EE9C /* MiCategoria.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		7765CCA21D98289D00298425 /* Prueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prueba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7765CCA51D98289D00298425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7765CCA71D98289D00298425 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7765CCAA1D98289D00298425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7765CCAD1D98289D00298425 /* Prueba.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prueba.xcdatamodel; sourceTree = "<group>"; };
 		7765CCAF1D98289D00298425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,12 +53,12 @@
 		7765CCC41D98289D00298425 /* PruebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7765CCC81D98289D00298425 /* PruebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PruebaUITests.swift; sourceTree = "<group>"; };
 		7765CCCA1D98289D00298425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77B906681DB8533C0091D8D3 /* MiCategoria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiCategoria.swift; sourceTree = "<group>"; };
-		7D2FC5AE1DA1C05500438B22 /* MiColeccionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiColeccionViewController.swift; sourceTree = "<group>"; };
-		7D2FC5B01DA1C08600438B22 /* PalabrasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalabrasViewController.swift; sourceTree = "<group>"; };
-		7D2FC5B21DA1C2BB00438B22 /* VerCategoriaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerCategoriaViewController.swift; sourceTree = "<group>"; };
-		7D2FC5B41DA1CB2900438B22 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		7D2FC5B61DA1CBC600438B22 /* CrearCategoriasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrearCategoriasViewController.swift; sourceTree = "<group>"; };
+		7D28529D1DBBFBB50016EE9C /* MisSignificadosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisSignificadosViewController.swift; sourceTree = "<group>"; };
+		7D28529F1DBBFBDF0016EE9C /* MiSignificado.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiSignificado.swift; sourceTree = "<group>"; };
+		7D2852A11DBBFECC0016EE9C /* MisPalabrasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisPalabrasViewController.swift; sourceTree = "<group>"; };
+		7D2852A31DBBFED50016EE9C /* MiPalabra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiPalabra.swift; sourceTree = "<group>"; };
+		7D2852A51DBC12FC0016EE9C /* MisCategoriasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MisCategoriasViewController.swift; sourceTree = "<group>"; };
+		7D2852AB1DBC15A00016EE9C /* MiCategoria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiCategoria.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,18 +110,17 @@
 			isa = PBXGroup;
 			children = (
 				7765CCA51D98289D00298425 /* AppDelegate.swift */,
-				7765CCA71D98289D00298425 /* ViewController.swift */,
 				7765CCA91D98289D00298425 /* Main.storyboard */,
 				7765CCAF1D98289D00298425 /* Assets.xcassets */,
 				7765CCB11D98289D00298425 /* LaunchScreen.storyboard */,
 				7765CCB41D98289D00298425 /* Info.plist */,
 				7765CCAC1D98289D00298425 /* Prueba.xcdatamodeld */,
-				7D2FC5AE1DA1C05500438B22 /* MiColeccionViewController.swift */,
-				7D2FC5B01DA1C08600438B22 /* PalabrasViewController.swift */,
-				7D2FC5B21DA1C2BB00438B22 /* VerCategoriaViewController.swift */,
-				7D2FC5B41DA1CB2900438B22 /* LoginViewController.swift */,
-				7D2FC5B61DA1CBC600438B22 /* CrearCategoriasViewController.swift */,
-				77B906681DB8533C0091D8D3 /* MiCategoria.swift */,
+				7D2852A51DBC12FC0016EE9C /* MisCategoriasViewController.swift */,
+				7D2852AB1DBC15A00016EE9C /* MiCategoria.swift */,
+				7D2852A11DBBFECC0016EE9C /* MisPalabrasViewController.swift */,
+				7D2852A31DBBFED50016EE9C /* MiPalabra.swift */,
+				7D28529D1DBBFBB50016EE9C /* MisSignificadosViewController.swift */,
+				7D28529F1DBBFBDF0016EE9C /* MiSignificado.swift */,
 			);
 			path = Prueba;
 			sourceTree = "<group>";
@@ -277,14 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D2FC5B51DA1CB2900438B22 /* LoginViewController.swift in Sources */,
-				7765CCA81D98289D00298425 /* ViewController.swift in Sources */,
-				77B906691DB8533C0091D8D3 /* MiCategoria.swift in Sources */,
+				7D2852A41DBBFED50016EE9C /* MiPalabra.swift in Sources */,
 				7765CCA61D98289D00298425 /* AppDelegate.swift in Sources */,
-				7D2FC5B31DA1C2BB00438B22 /* VerCategoriaViewController.swift in Sources */,
-				7D2FC5B71DA1CBC600438B22 /* CrearCategoriasViewController.swift in Sources */,
-				7D2FC5AF1DA1C05500438B22 /* MiColeccionViewController.swift in Sources */,
-				7D2FC5B11DA1C08600438B22 /* PalabrasViewController.swift in Sources */,
+				7D2852A01DBBFBDF0016EE9C /* MiSignificado.swift in Sources */,
+				7D28529E1DBBFBB50016EE9C /* MisSignificadosViewController.swift in Sources */,
+				7D2852A21DBBFECC0016EE9C /* MisPalabrasViewController.swift in Sources */,
+				7D2852A61DBC12FC0016EE9C /* MisCategoriasViewController.swift in Sources */,
+				7D2852AC1DBC15A00016EE9C /* MiCategoria.swift in Sources */,
 				7765CCAE1D98289D00298425 /* Prueba.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

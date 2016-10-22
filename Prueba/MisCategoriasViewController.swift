@@ -8,14 +8,7 @@
 
 import UIKit
 
-class MiColeccionCategoriaViewController: UIViewController {
-
-    
-    
-    
-    
-    
-    
+class MisCategoriasViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,13 +19,9 @@ class MiColeccionCategoriaViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 }
 
-
-
-extension MiColeccionCategoriaViewController: UICollectionViewDataSource {
-    
+extension MisCategoriasViewController: UICollectionViewDataSource {
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
@@ -52,6 +41,10 @@ extension MiColeccionCategoriaViewController: UICollectionViewDataSource {
         switch indexPath.section {
         case 0:
             
+           
+            
+            
+            
             let item : MiCategoria
             
             item = collectionView.dequeueReusableCellWithReuseIdentifier("categoria", forIndexPath: indexPath) as! MiCategoria
@@ -61,6 +54,9 @@ extension MiColeccionCategoriaViewController: UICollectionViewDataSource {
             return item
             
         default:
+            
+          
+            
             
             let item : MiCategoria
             
@@ -79,7 +75,7 @@ extension MiColeccionCategoriaViewController: UICollectionViewDataSource {
 
 
 
-extension MiColeccionCategoriaViewController: UICollectionViewDelegate{
+extension MisCategoriasViewController: UICollectionViewDelegate{
     
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
@@ -90,7 +86,8 @@ extension MiColeccionCategoriaViewController: UICollectionViewDelegate{
 }
 
 
-extension MiColeccionCategoriaViewController: UICollectionViewDelegateFlowLayout{
+extension MisCategoriasViewController: UICollectionViewDelegateFlowLayout{
+    
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         
